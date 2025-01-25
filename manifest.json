@@ -1,0 +1,14 @@
+{
+    "name": "My BEEF+ Extension",
+    "description": "Adjust BEEF+ for me",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+  {
+    "matches": ["https://beefplus.center.kobe-u.ac.jp/*"],
+    "js": ["content_script.js"]
+  }
+]
+
+}
+  
